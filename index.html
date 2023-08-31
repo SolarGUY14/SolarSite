@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparsh's Website</title> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ba1d31ff4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+    <nav>
+        
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#contact">Contact</a></li>
+           
+
+        </ul>
+        
+    </nav>
+    <div class = "header-text">
+        <p> CS Major @ MSU. Based in Troy, MI</p>
+        <h1> Hi, I'm <br> <span>Sparsh</span> <br>Shrivastava</h1></h1>
+    </div>
+
+</div>
+
+</div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/snocopic.png" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class = "sub-title"> About Me</h1>
+                    <p>
+                        I am Sparsh Shrivastava, I am currently studying Computer Science at Michigan State University, I have ambitious goals to further my career in the Comp-Sci world, but I am also highly interested
+                        in the business world, in the future I wish to intertwine these two worlds and create an illustrious career for myself! 
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('knowledge/hobbies')">Knowledge/Hobbies</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id ="knowledge/hobbies">
+                        <ul>
+                            <li><h3><span>Softwares/Languages</span></h3><br>Skilled using Microsoft Power BI, Python, Java <br><br> Currently learning HTML and CSS (While developing this website :D)<br><br> Will be learning C++ soon</li>
+                            <li><h3><span> Hobbies</span></h3><br> My hobbies include playing sports, particularly soccer and volleyball <br><br> I enjoy reading and love The Lord of the Rings<br><br> I thoroughly enjoy drawing, dancing and writing as I find them to be great creative outlets</li>
+                        </ul>
+                    </div>
+                   <div class="tab-contents" id = "experience">
+                    <ul>
+                        <li><h3><span> Work Experience</span></h3><br> Math Tutor at Mathnasium Birmingham 2022-2023</li>
+                        <li><h3><span> Technical Experience</span></h3><br> Scouting Lead for FRC 226 (2019-2023): Became skilled in Microsoft BI and gained extensive programming knowledge in Java and Python<br><br> State Officer for Future Business Leaders of America (2022-2023): Involved myself with the business world and obtained lucrative knowledge revolving around business and case studies<br><br> Regional and State contender for Improptu Speaking through the Troy High Forensics Team (2020-2023)<br><br>Mentored a middle school robotics team FTC 13462 (2019-2023): Taught engineering skills primarily focusuing on CAD and Java programming</li>
+                    </ul>
+                    </div>
+                    <div class="tab-contents" id = "education">
+                        <ul>
+                            <li><h3><span> College</span></h3><br>Computer Science Major at Michigan State University: Currently pursuing a B.S. and considering a M.S. in the future</li>
+                            <li><h3><span> Highschool</span></h3><br>Graduated from Troy High School: 3.9/4.0 GPA<br><br> 12 AP Courses<br><br> 5: Calculus BC. <br> 4: Psychology, Microeconomics, Macroeconomics, Physics C: Electricty and Magnetism, English Language&Literature and Composition, and Statistics.<br><br> SAT: 1480</li>
+                        </ul>
+                   </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class = "sub-title">My Projects</h1>  
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-table-cells"></i>
+                    <h2>Sudoku Solver</h2>
+                    <p>Program coded in Python that automatically solves Sudoku Puzzles.</p>
+                    <a href="#">Try it!</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Binary Search Program</h2>
+                    <p>Python program that demonstrates a search method better than brute force.</p>
+                    <a href="#">Check it out!</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-comment"></i>
+                    <h2>Creative Blog</h2>
+                    <p>My blog where I write about...anything!</p>
+                    <a href="https://sparshs914.wixsite.com/website">Check it out!</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+   <!-----------Contact, Do photos before-------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1  class = "sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>Sparshs914@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>248-918-7511</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sparsh.shriv/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://open.spotify.com/user/splashbear?si=3091adae986148c2"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="https://www.linkedin.com/in/sparsh-shrivastava-b5899728a"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name ="Message" rows=""6 placeholder = "Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">Copyright © Sparsh S</div>
+   </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbwfEBETMuaYjj2ywsJLz6GoqDA0Nbd6NBhXi6KWk7jmYdcV-daF4Rs4e5GO3wcPH3vt/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
